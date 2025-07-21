@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-SERPER_API_KEY = "39cec2537d789eb65839c47769da0389676b7955"  # replace or keep here
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")  # replace or keep here
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 @tool("search_shopping", return_direct=True)

@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 # Load environment variables
 load_dotenv()
-SERPER_API_KEY = "39cec2537d789eb65839c47769da0389676b7955"  # You may want to move this to .env
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")   # You may want to move this to .env
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 @tool
