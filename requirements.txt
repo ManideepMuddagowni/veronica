@@ -139,7 +139,7 @@ reportlab
 requests==2.32.4
 requests-toolbelt==1.0.0
 rich==14.0.0
-rlPyCairo 
+rlPyCairo
 rpds-py==0.26.0
 rsa==4.9.1
 safetensors==0.5.3
@@ -180,5 +180,3 @@ xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
-setuptools>=65.0.0
-wheel
