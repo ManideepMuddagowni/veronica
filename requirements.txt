@@ -1,7 +1,5 @@
 setuptools>=65.0.0
 wheel
-
-Flask
 requests
 aiofiles
 aiohappyeyeballs
@@ -13,7 +11,6 @@ annotated-types
 anyio
 async-timeout
 attrs
-beautifulsoup4
 blinker
 Brotli
 bs4
@@ -48,14 +45,6 @@ fsspec
 fuzzywuzzy
 gitdb
 GitPython
-google-ai-generativelanguage
-google-api-core
-google-api-python-client
-google-auth
-google-auth-httplib2
-google-generativeai
-googleapis-common-protos
-greenlet
 groq
 grpcio
 grpcio-status
@@ -72,7 +61,6 @@ importlib_metadata
 itsdangerous
 Jinja2
 jiter
-joblib
 jsonpatch
 jsonpointer
 jsonschema
@@ -183,5 +171,3 @@ xxhash
 yarl
 zipp
 zstandard
-zipp==3.23.0
-zstandard==0.23.0
